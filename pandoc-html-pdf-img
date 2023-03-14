@@ -1,0 +1,8 @@
+#! /usr/bin/env python3
+"""Executable interface to pandoc_html_pdf_img
+
+"""
+
+import pandoc_html_pdf_img
+
+pandoc_html_pdf_img.main()
