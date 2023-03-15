@@ -7,7 +7,7 @@ from setuptools import setup
 
 
 setup(name="pandoc-html-pdf-img",
-      version=0.9,
+      version="0.10",
       description=("Helps with processing of pdfs in Marked"),
       # long_description=readme(),
       author="Scott Hartley",

@@ -12,10 +12,8 @@ def pdf_img(key, val, fmt, meta):
     if key == 'Image' and fmt == 'html':
         attrs, caption, target = val
 
-        precap = "<figure><img src=\"" + target[0] + "\" /><figcaption>"
-        postcap = "</figcaption></figure>"
-
-        return [RawInline(fmt, precap)] + caption + [RawInline(fmt, postcap)]
+        new_html = "<img src=\"" + target[0] + "\" />"
+        return [RawInline(fmt, new_html)]
 
 
 def main():
